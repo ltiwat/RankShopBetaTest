@@ -40,8 +40,7 @@ public class Product {
 		this.rank_price = rank_price;
 		this.rank_image = rank_image;
 	}
-	
-	
+
 	public int getId() {
 		return id;
 	}
@@ -81,7 +80,7 @@ public class Product {
 	public void setRank_image(String rank_image) {
 		this.rank_image = rank_image;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", rank_name=" + rank_name + ", rank_description=" + rank_description
